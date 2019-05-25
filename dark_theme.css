@@ -1,4 +1,6 @@
-/* Complete https://github.com/alphapapa/solarized-everything-css/blob/master/css/solarized-all-sites-dark.css */
+/* Adapted from this project:
+ * https://github.com/alphapapa/solarized-everything-css/blob/master/css/solarized-all-sites-dark.css 
+*/
 
 /* base blocks */
 header,
@@ -24,14 +26,14 @@ summary,
 .global,
 .u-backgroundWhite
  {
-  background-color: #002b36 !important;
-  color: #839496 !important;
+  background-color: #191919 !important;
+  color: #cecece !important;
 }
 
 /* specific content (like quote) */
 strong {
-  background-color: #073642 !important;
-  color: #839496 !important;
+  background-color: #020202 !important;
+  color: #c5c4ed !important;
 }
 
 /* title */
@@ -41,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  background-color: #002b36 !important;
+  background-color: #191919 !important;
 }
 
 /* navigation */
@@ -49,14 +51,14 @@ nav,
 #mainbar,
 #archnavbar,
  {
-  background-color: #073642 !important;
+  background-color: #f94109 !important;
 }
 
 /* TODO not good, comment in git  */
 .blob-code span {
-  background-color: #002b36 !important;
+  background-color: #191919 !important;
 }
 /* code in flask doc */
 .highlight span {
-  background-color: #073642 !important;
+  background-color: #296187 !important;
 }
