@@ -7,6 +7,7 @@ header,
 div,
 li,
 p,
+a,
 span,
 td,
 /* content blocks */
@@ -37,7 +38,9 @@ strong {
 }
 
 /* title */
-h1,
+h1 {
+    color: #cecece !important;
+},
 h2,
 h3,
 h4,
