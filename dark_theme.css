@@ -4,12 +4,38 @@
 
 /* base blocks */
 header,
-div,
-li,
-p,
-a,
-span,
-td,
+div {
+    color: white;
+    background-color: black;
+},
+li {
+    color: white; 
+    background-color: black;
+},
+p {
+    color: white;    
+    background-color: black;
+},
+a { 
+    color: white; 
+    background-color: black;
+},
+span {
+    color: white; 
+    background-color: black;
+},
+code {
+    color: white; 
+    background-color: black;
+},
+input {
+    color: white; 
+    background-color: black;
+},
+td { 
+    color: white; 
+    background-color: black;
+},
 /* content blocks */
 article,
 aside,
@@ -25,43 +51,60 @@ summary,
 #content,
 .section,
 .global,
-.u-backgroundWhite
- {
-  background-color: #191919 !important;
-  color: #cecece !important;
-}
-
+.u-backgroundWhite {
+    color: white; 
+    background-color: black;
+},
 /* specific content (like quote) */
 strong {
-  background-color: #020202 !important;
-  color: #c5c4ed !important;
+    color: white; 
+    background-color: black;
 }
 
 /* title */
 h1 {
-    color: #cecece !important;
+    color: white; 
+    background-color: black;
 },
-h2,
-h3,
-h4,
-h5,
+h2 { 
+    color: white; 
+    background-color: black;
+},
+h3 { 
+    color: white; 
+    background-color: black;
+},
+h4 { 
+    color: white; 
+    background-color: black;
+},
+h5 { 
+    color: white; 
+    background-color: black;
+},
 h6 {
-  background-color: #191919 !important;
+    color: white; 
+    background-color: black;
 }
 
 /* navigation */
-nav,
+nav {
+    color: white; 
+    background-color: black;
+},
 #mainbar,
-#archnavbar,
- {
-  background-color: #f94109 !important;
+#archnavbar {
+    color: white; 
+    background-color: black;
 }
 
 /* TODO not good, comment in git  */
 .blob-code span {
-  background-color: #191919 !important;
+    color: white; 
+    background-color: black;
 }
 /* code in flask doc */
 .highlight span {
-  background-color: #296187 !important;
+    color: white; 
+    background-color: black;
 }
